@@ -1,11 +1,11 @@
 <p>I have studied undergraduate in <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I have completed B.Sc. in Computer Science and Engineering<a href="https://cse.buet.ac.bd/">(CSE)</a>. Currently I am enrolled in M.Sc. in CSE course from same depertment.</p>
 <br>
 <table>
-    <th>
-        <tc>Degree</tc><tc>Starting Year</tc><tc>Passing Year</tc><tc>CGPA</tc>
-    </th>
     <tr>
-        <tc>B.Sc in CSE</tc><tc>2012</tc><tc>2017</tc><tc>3.57</tc>
+        <th>Degree</th><th>Starting Year</th><th>Passing Year</th><th>CGPA</th>
+    </tr>
+    <tr>
+        <td>B.Sc in CSE</td><td>2012</td><td>2017</td><td>3.57</td>
     </tr>
 </table>
 
