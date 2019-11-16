@@ -1,5 +1,5 @@
-<object data="cv.pdf" type="application/pdf" width="600" height="1400">
-    <embed src="cv.pdf" width="600px" height="1400px" />
+<object data="cv.pdf" type="application/pdf" width="60%" height="80%">
+    <embed src="cv.pdf" width="60%" height="80%" />
         <p>This browser does not support PDFs. Please download the PDF to view it: 
         <a href="https://jaiaid.github.io/cv.pdf">Download PDF</a>.</p>
     </embed>
