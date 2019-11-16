@@ -1,0 +1,11 @@
+<h4>Research & Research Interest</h4>
+<p>In my academic life, I have done research on stochastic optimization, bioinformatics. I am also interested in computer architecture, security and computer vision.</p>
+
+<h4>Publications</h4>
+<p>
+    <ul><a href="https://www.sciencedirect.com/science/article/abs/pii/S2210650218302414">A heuristic aided Stochastic Beam Search algorithm for solving the transit network design problem</a></ul>
+
+    In this work we have used stochastic optimization technique to solve simplified transit network design problem. Although simplified, the problem is still multiobjective.
+<br>
+Our contribution is proposing a heuristic which creates good solution for some benchmark data w.r.t some metric used in some other relevent literature. To improve solution furthur we have applied stochastic beam search. We have reported statitical significance of the improvment to justify the use of stochastic optimization. 
+</p>
