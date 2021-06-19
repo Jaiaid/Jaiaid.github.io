@@ -1,4 +1,4 @@
-# Jaiaid.github.io
+### Jaiaid.github.io
 ---
-permalink: /index.html
+[home page](https://jaiaid.github.io/) 
 ---
