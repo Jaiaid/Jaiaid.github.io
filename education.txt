@@ -1,4 +1,4 @@
-<p>I have studied undergraduate in <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I have completed B.Sc. in Computer Science and Engineering<a href="https://cse.buet.ac.bd/">(CSE)</a>. Currently I am enrolled in M.Sc. in CSE course from same depertment.</p>
+<p>I have studied undergraduate in <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I have completed B.Sc. in Computer Science and Engineering<a href="https://cse.buet.ac.bd/">(CSE)</a>.</p>
 <br>
 <table>
     <tr>
