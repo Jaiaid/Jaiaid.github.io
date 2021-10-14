@@ -1,9 +1,9 @@
 <img style="padding:1%" src="hellothere_once.gif" alt="Hello, there!">
 <p>I am Jaiaid Mobin. A software engineer from Bangladesh.</p>
 <p>I am a student of Computer Science but I am also interested in other fields of science, especially physics, chemistry, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
-<p>In my leisure, I like to sleep:p, do some side project related to programming. I also have hobby of stargazing and watching video game walkthrough in youtube.</p>
+<p>In my leisure, I like to do personal project related to programming. I also have hobby of stargazing and watching video game walkthrough in youtube.</p>
 
 <h4>Current Work</h4>
 <p>Currently I am working as software engineer in <a href="https://bjitgroup.com/">BJIT Ltd..</a></p>
-<p>I am involved in developing deep learning, computer vision and training related project. Mainly I have to develop using python, C++ as programming language. For computer vision and deep learning framework, I mostly use opencv, pytorch and keras.</p>
-<p>For development platform I am comfortable with both Linux based OS and Windows.</p>
+<p>I was involved in developing deep learning, computer vision and training related project. Currently I mostly work on PC application development. Mainly I have to develop using C++, Python3 as programming language. For computer vision and deep learning framework, I mostly use opencv, scikit, keras.</p>
+<p>For development platform I am comfortable with both Linux based OS and Windows 10.</p>
