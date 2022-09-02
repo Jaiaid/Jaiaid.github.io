@@ -1,5 +1,5 @@
 <img style="padding:1%" src="hellothere_once.gif" alt="Hello, there!">
-<p>I am Jaiaid Mobin. Graduate research assistant in <a href="https://cse.buet.ac.bd/">RIT HPDSL</a>.</p>
+<p>I am Jaiaid Mobin. Graduate research assistant in <a href="ttps://www.cs.rit.edu/~hpdsl/index.html">RIT HPDSL</a>.</p>
 <p>I am a student of Computer Science but I am also interested in other fields of science, especially physics, chemistry, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
 <p>In my leisure, I like to do personal project related to programming. I also have hobby of stargazing and watching video game walkthrough in youtube.</p>
 
