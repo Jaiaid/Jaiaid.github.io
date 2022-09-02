@@ -1,5 +1,5 @@
 <h4>Research & Research Interest</h4>
-<p>I have done research on stochastic optimization, bioinformatics tool. My interest is to do research on computer architecture and computer vision.</p>
+<p>I have done research on stochastic optimization, application of it in transit network design problem and bioinformatics tool. My research interest topics are high performance computing, operating systems, computer architecture.</p>
 
 <h4>Publications</h4>
 <p>
