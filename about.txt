@@ -6,4 +6,4 @@
 <h4>Current Work</h4>
 <p>Currently I am working (started from August 25th, 2022) as a graduate research assistant in High Performance and Distributed Systems Lab <a href="https://www.cs.rit.edu/~hpdsl/index.html">(HPDSL)</a> in Rochester Institute and Technology (RIT) under Dr. M. Mustafa Rafique.</p>
 <p>Here with other fellow labmates I will do research on high performance computing, distributed systems and operating systems under supervision of Dr. M. Mustafa Rafique.</p>
-<p>For development platform, I am comfortable with both Linux based OS and Windows 10.</p>
+<p>For development environment, I am comfortable with both Linux based OS and Windows 10.</p>
