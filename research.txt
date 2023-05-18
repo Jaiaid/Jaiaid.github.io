@@ -5,18 +5,18 @@
 <p>
     <ul>
         <li>
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210650218302414">A heuristic aided Stochastic Beam Search algorithm for solving the transit network design problem</a>
-    <br>
-    In this work we have used stochastic optimization technique to solve simplified transit network design problem. Although simplified, the problem is still multiobjective.
-<br>
-Our contribution is proposing a heuristic which creates good solution in very short time for some benchmark data w.r.t some metric used in some other relevent literature. To improve solution furthur we have applied stochastic beam search. We have reported statitical significance of the improvment to justify the use of stochastic optimization. 
-        </li>
-        <li>
     <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245058">Efficient association mapping from k-mers—An application in finding sex-specific sequences</a>
     <br>
     In this work we have improved a tool for applying reference free association mapping method described <a href="https://elifesciences.org/articles/32920">here</a>
 <br>
 Our contribution is improving execution time of the existing tool and demonstrating that this tool is applicable in finding sex specific sequences
+        </li>
+     	<li>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210650218302414">A heuristic aided Stochastic Beam Search algorithm for solving the transit network design problem</a>
+    <br>
+    In this work we have used stochastic optimization technique to solve simplified transit network design problem.
+<br>
+Our contribution is proposing a heuristic which creates good solution in very short time for some benchmark data w.r.t some metric used in some other relevent literature. To improve solution furthur we have applied stochastic beam search. We have reported statitical significance of the improvment to justify the use of stochastic optimization. 
         </li>
     </ul>
 </p>
