@@ -1,11 +1,17 @@
-<p>I have studied undergraduate in <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I have completed B.Sc. in Computer Science and Engineering<a href="https://cse.buet.ac.bd/">(CSE)</a>. Currently I am a Ph.D. student in <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Computing and Information Science Ph.D.</a> program in RIT.</p>
+<p>I have studied in <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I have completed B.Sc. and M.Sc. in Computer Science and Engineering<a href="https://cse.buet.ac.bd/">(CSE)</a>. Currently I am a Ph.D. student in <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Computing and Information Science Ph.D.</a> program in RIT.</p>
 <br>
 <table>
     <tr>
-        <th>Degree</th><th>Starting Year</th><th>Passing Year</th><th>CGPA</th>
+        <th>Degree</th><th>Starting Year</th><th>Passing Year</th>
     </tr>
     <tr>
-        <td>B.Sc in CSE</td><td>2012</td><td>2017</td><td>3.57</td>
+        <td>B.Sc. in CSE</td><td>2012</td><td>2017</td>
+    </tr>
+    <tr>
+        <td>M.Sc. in CSE (Part Time)</td><td>2017</td><td>2022</td>
+    </tr>
+    <tr>
+        <td>GCCIS Ph.D.</td><td>2022</td><td>2027 (expected)</td>
     </tr>
 </table>
 
