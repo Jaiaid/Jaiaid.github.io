@@ -1,9 +1,24 @@
 <h4>Research & Research Interest</h4>
-<p>I have done research on stochastic optimization, application of it in transit network design problem and bioinformatics tool. My research interest topics are high performance computing, operating systems, computer architecture.</p>
+<p>I have done research on stochastic optimization, application of it in transit network design problem and bioinformatics tool. Currently I am working in HPC workload optimization. My focus field is GPU workload optimization, and disaggregated datacenter.</p>
 
 <h4>Publications</h4>
 <p>
     <ul>
+        <li>
+    <a href="https://dl.acm.org/doi/10.1145/3588195.3595940">COLTI: Towards Concurrent and Co-located DNN Training and Inference</a>
+    <br>
+    This is presented as poster in HPDC'23. In this work we have proposed a system to deploy continuously learned system geared towards saving GPU resources.
+        </li>
+        <li>
+    <a href="https://www.sciencedirect.com/science/article/pii/S2590198223000453">Multi-objective optimization and heuristic based solutions for evacuation modeling</a>
+    <br>
+    This is part of my M.Sc. thesis work. Here we have worked on applying MOO and heuristic to solve route generation problem with objective of reducing evacuation completion time. We have evaluated our approach on evacuation dataset of Halifax city, Nova-Scotia, Canada. 
+        </li>
+        <li>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10056480">Towards Data Gravity and Compliance Aware Distributed Deep Learning on Hybrid Clouds</a>
+    <br>
+    In this work we have proposed a scheduling algorithm for distributed deep learning across hybrid cloud setup which is aware of data compliance
+        </li>
         <li>
     <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245058">Efficient association mapping from k-mers—An application in finding sex-specific sequences</a>
     <br>
