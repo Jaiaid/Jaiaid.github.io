@@ -1,9 +1,10 @@
 <img style="padding:1%" src="hellothere_once.gif" alt="Hello, there!">
-<p>I am Jaiaid Mobin. Graduate research assistant in <a href="ttps://www.cs.rit.edu/~hpdsl/index.html">RIT HPDSL</a>.</p>
-<p>I am a student of Computer Science but I am also interested in other fields of science, especially physics, chemistry, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
-<p>In my leisure, I like to do personal project related to programming. I also have hobby of stargazing and watching video game walkthrough in youtube.</p>
+<p>I am Jaiaid Mobin. 2nd year <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Ph.D.</a> student in Rochester Institute of Technology (RIT).</p>
+<p>I am interested in general science, especially physics, chemistry, math, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
+<p>In my leisure, I like to do personal project related to programming. My other hobbies include stargazing and playing PC games.</p>
 
 <h4>Current Work</h4>
-<p>Currently I am working (started from August 25th, 2022) as a graduate research assistant in High Performance and Distributed Systems Lab <a href="https://www.cs.rit.edu/~hpdsl/index.html">(HPDSL)</a> in Rochester Institute and Technology (RIT) under Dr. M. Mustafa Rafique.</p>
+<p>I will soon start working as graduate teaching assistant in RIT. I will be assistant for Advanced Object Oriented Programming course</p>
 <p>Here with other fellow labmates I will do research on high performance computing, distributed systems and operating systems under supervision of Dr. M. Mustafa Rafique.</p>
-<p>For development environment, I am comfortable with both Linux based OS and Windows 10.</p>
+<p>For development environment, I am comfortable with both Linux based OS and Windows 10. I am most comfortable with C, C++, Python3 and Bash.</p>
+<p>My recent work focus was CUDA feature implementation in PyTorch. Currently I am studying cpython code base, and  Apache OpenWhisk system.</p>
