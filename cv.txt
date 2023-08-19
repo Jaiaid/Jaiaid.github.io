@@ -1,4 +1,4 @@
-<object data="cv.pdf" type="application/pdf" width="60%" height="1200px">
+<object data="resume_detailed.pdf" type="application/pdf" width="60%" height="1200px">
     <embed src="cv.pdf" width="60%" height="1200px"/>
         <p>This browser does not support PDFs. Please download the PDF to view it: 
         <a href="https://jaiaid.github.io/cv.pdf">Download PDF</a>.</p>
