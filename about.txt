@@ -3,8 +3,10 @@
 <p>I am interested in general science, especially physics, chemistry, math, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
 <p>In my leisure, I like to do personal project related to programming. My other hobbies include stargazing and playing PC games.</p>
 
-<h4>Current Work</h4>
+<h4>Work Update</h4>
 <p>I will soon start working as graduate teaching assistant in RIT. I will be assistant for Advanced Object Oriented Programming course</p>
-<p>Here with other fellow labmates I will do research on high performance computing, distributed systems and operating systems under supervision of Dr. M. Mustafa Rafique.</p>
+
+<h4>About Work</h4>
+<p>I do research on high performance computing, distributed systems under supervision of Dr. M. Mustafa Rafique as part of my Ph.D. program.</p>
 <p>For development environment, I am comfortable with both Linux based OS and Windows 10. I am most comfortable with C, C++, Python3 and Bash.</p>
 <p>My recent work focus was CUDA feature implementation in PyTorch. Currently I am studying cpython code base, and  Apache OpenWhisk system.</p>
