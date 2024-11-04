@@ -1,12 +1,11 @@
 <img style="padding:1%" src="hellothere_once.gif" alt="Hello, there!">
-<p>I am Jaiaid Mobin. 2nd year <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Ph.D.</a> student in Rochester Institute of Technology (RIT).</p>
+<p>I am Jaiaid Mobin. 3rd year <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Ph.D.</a> student in Rochester Institute of Technology (RIT).</p>
 <p>I am interested in general science, especially physics, chemistry, math, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
 <p>In my leisure, I like to do personal project related to programming. My other hobbies include stargazing and playing PC games.</p>
 
-<h4>Work Update</h4>
-<p>I will soon start working as graduate teaching assistant in RIT. I will be assistant for Advanced Object Oriented Programming course</p>
 
 <h4>About Work</h4>
 <p>I do research on high performance computing, distributed systems under supervision of Dr. M. Mustafa Rafique as part of my Ph.D. program.</p>
+<p>I have done teaching assistantship for Advanced Object Oriented Programming Concepts (CSCI-605) as part time employment.</p>
 <p>For development environment, I am comfortable with both Linux based OS and Windows 10. I am most comfortable with C, C++, Python3 and Bash.</p>
-<p>My recent work focus was CUDA feature implementation in PyTorch. Currently I am studying cpython code base, and  Apache OpenWhisk system.</p>
+<p>My recent work focus is efficient placement of neural network layer for memory usage reduction while minimizing time penalty. Also I am working on context management for continual training and inference. For my work I develop custom Python module for PyTorch framework </p>
