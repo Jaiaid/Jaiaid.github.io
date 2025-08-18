@@ -55,10 +55,21 @@
                 height: 10vh;
                 background-color: #88a9ca;
                 border-top: 1px solid black;
+                border-left: 1px solid black;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-shrink: 0;
+                padding: 5px;
+                box-sizing: border-box;
+                transition: height 0.3s ease, padding 0.3s ease;
+            }
+            
+            .ad-container .adsbygoogle {
+                transition: all 0.3s ease;
+                border-radius: 2px;
             }
             
             /* Media Queries for Responsive Design */
@@ -221,6 +232,7 @@
         </script>
     </body>
 </html>
+
 
 
 
