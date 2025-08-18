@@ -185,9 +185,43 @@
                 xhttp.open("GET", "https://jaiaid.github.io/about.txt", true);
                 xhttp.send();
             }
+
+            // AdSense initialization and responsive behavior
+            function initializeAds() {
+                try {
+                    // Push ads to AdSense queue for loading
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.log('AdSense initialization error:', e);
+                }
+            }
+
+            // Handle responsive ad behavior on window resize
+            function handleAdResize() {
+                var adContainer = document.querySelector('.ad-container');
+                var adElement = document.querySelector('.adsbygoogle');
+                
+                if (adContainer && adElement) {
+                    // Refresh ad layout on resize for better responsiveness
+                    if (window.innerWidth <= 768) {
+                        adElement.style.height = '8vh';
+                    } else {
+                        adElement.style.height = '10vh';
+                    }
+                }
+            }
+
+            // Initialize ads when page loads
+            window.addEventListener('load', function() {
+                setTimeout(initializeAds, 1000); // Delay to ensure AdSense script is loaded
+            });
+
+            // Handle window resize for responsive ads
+            window.addEventListener('resize', handleAdResize);
         </script>
     </body>
 </html>
+
 
 
 
