@@ -1,0 +1,181 @@
+<style>
+    .content-grid {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .content-row {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+    }
+    
+    .content-row h3 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .video-container, .photo-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .video-item, .photo-item {
+        position: relative;
+        width: 280px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .video-item:hover, .photo-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    .video-item iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    
+    .video-item .video-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px;
+        font-size: 14px;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+    
+    .video-item:hover .video-title {
+        transform: translateY(0);
+    }
+    
+    .photo-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .placeholder-video {
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+<div class="content-grid">
+    <!-- Row 1: Top YouTube Videos -->
+    <div class="content-row">
+        <h3>Top YouTube Videos</h3>
+        <div class="video-container">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/videoseries?list=UU8344jaiaidmobin" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <div class="video-title">Latest Gaming Content</div>
+            </div>
+            
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/videoseries?list=UU8344jaiaidmobin&index=2" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <div class="video-title">Popular Gaming Highlights</div>
+            </div>
+            
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/videoseries?list=UU8344jaiaidmobin&index=3" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <div class="video-title">Gaming Tutorials & Tips</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Row 2: Featured Videos (Placeholders) -->
+    <div class="content-row">
+        <h3>Featured Videos</h3>
+        <div class="video-container">
+            <div class="video-item">
+                <div class="placeholder-video">
+                    <p>YouTube Video Placeholder 1<br>
+                    <small>Replace with your preferred YouTube embed code</small></p>
+                </div>
+                <div class="video-title">Custom Video 1</div>
+            </div>
+            
+            <div class="video-item">
+                <div class="placeholder-video">
+                    <p>YouTube Video Placeholder 2<br>
+                    <small>Replace with your preferred YouTube embed code</small></p>
+                </div>
+                <div class="video-title">Custom Video 2</div>
+            </div>
+            
+            <div class="video-item">
+                <div class="placeholder-video">
+                    <p>YouTube Video Placeholder 3<br>
+                    <small>Replace with your preferred YouTube embed code</small></p>
+                </div>
+                <div class="video-title">Custom Video 3</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Row 3: Flickr Photos -->
+    <div class="content-row">
+        <h3>Flickr Photos</h3>
+        <div class="photo-container">
+            <div class="photo-item">
+                <a href="https://www.flickr.com/people/193785956@N05/" target="_blank">
+                    <img src="https://live.staticflickr.com/65535/52000000000_000000_z.jpg" 
+                         alt="Flickr Photo 1" 
+                         onerror="this.src='https://via.placeholder.com/280x200?text=Flickr+Photo+1'">
+                </a>
+            </div>
+            
+            <div class="photo-item">
+                <a href="https://www.flickr.com/people/193785956@N05/" target="_blank">
+                    <img src="https://live.staticflickr.com/65535/52000000001_000000_z.jpg" 
+                         alt="Flickr Photo 2" 
+                         onerror="this.src='https://via.placeholder.com/280x200?text=Flickr+Photo+2'">
+                </a>
+            </div>
+            
+            <div class="photo-item">
+                <a href="https://www.flickr.com/people/193785956@N05/" target="_blank">
+                    <img src="https://live.staticflickr.com/65535/52000000002_000000_z.jpg" 
+                         alt="Flickr Photo 3" 
+                         onerror="this.src='https://via.placeholder.com/280x200?text=Flickr+Photo+3'">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
