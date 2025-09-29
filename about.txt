@@ -1,11 +1,17 @@
 <img style="padding:1%" src="hellothere_once.gif" alt="Hello, there!">
-<p>I am Jaiaid Mobin. 3rd year <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Ph.D.</a> student in Rochester Institute of Technology (RIT).</p>
+<p>I am Jaiaid Mobin. 4th year <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Ph.D.</a> student in Rochester Institute of Technology (RIT).</p>
 <p>I am interested in general science, especially physics, chemistry, math, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
-<p>In my leisure, I like to do personal project related to programming. My other hobbies include stargazing and playing PC games. Check out some of my astrophotography attempt in my Flickr account (left column).</p>
-
+<p>In my leisure, I like to do personal project related to programming. My other hobbies include stargazing, microscope and PC games. Check out some of my photography attempt in my Flickr and Instagram accounts (left column).</p>
+<p>I also have a Youtube channel. I upload mainly gaming content. Check out my recent activities in <a href="content">My Contents</a> tab</p>
 
 <h4>About Work</h4>
-<p>I do research on high performance computing, distributed systems under supervision of Dr. M. Mustafa Rafique as part of my Ph.D. program.</p>
-<p>I have done teaching assistantship for Advanced Object Oriented Programming Concepts (CSCI-605) as part time employment.</p>
+<p>I am a graduate research assistant doing research on high performance computing, distributed systems under supervision of Dr. M. Mustafa Rafique as part of my Ph.D. program.</p>
 <p>For development environment, I am comfortable with both Linux based OS and Windows 10. I am most comfortable with C, C++, Python3 and Bash.</p>
-<p>My recent work focus is efficient placement of neural network layer for memory usage reduction while minimizing time penalty. Also I am working on context management for continual training and inference. For my work I develop custom Python module for PyTorch framework </p>
+<p>
+I am investigating in multiple direction
+<ul>
+    <li>GPU Context Sharing-based Scheduling in ML Surrogate Model-based Workflow</li>
+    <li>Deduplication of training data in memory for Distributed Training Workload</li>
+    <li>CPU Offloading in General DNN Inference</li>
+</ul>
+</p>

@@ -143,12 +143,15 @@
                     <br>
                     <a href="#" id="resume">My Resume</a>
                     <br>
+                    <a href="#" id="contentcreation">My Contents</a>
+                    <br>
                     <br>
                     <a href="https://github.com/Jaiaid" target="_blank"><img src="github.png" alt="gihub" style="height:30px; width=30px"></a>
                     <a href="https://www.linkedin.com/in/jaiaid-m-9913ba135" target="_blank"><img src="linkedin.png" style="height:30px; width=30px" alt="gihub"></a>
                     <a href="https://scholar.google.com/citations?hl=en&user=ifmzYdsAAAAJ" target="_blank"><img src="scholar.png" style="height:30px; width=30px" alt="google scholar"></a>
                     <a href="https://www.flickr.com/people/193785956@N05/" target="_blank"><img src="flickr.png" style="height:30px; width=30px" alt="flickr"></a>
-                    <a href="https://youtube.com/@jaiaidmobin8344" target="_blank"><img src="youtube.png" style="height:30px; width=30px" alt="flickr"></a>
+                    <a href="https://www.instagram.com/jaiaidusernamenotavailable/" target="_blank"><img src="instagram.png" style="height:30px; width=30px" alt="instagram"></a>
+                    <a href="https://youtube.com/@jaiaidmobin8344" target="_blank"><img src="youtube.png" style="height:30px; width=30px" alt="youtube"></a>
                 </div>
                 <div id="content" class="content-area">
                     
@@ -171,6 +174,7 @@
             document.getElementById("education").addEventListener("click", loadDocWithHttp, false);
             document.getElementById("research").addEventListener("click", loadDocWithHttp, false);
             document.getElementById("resume").addEventListener("click", loadDocWithHttp, false);
+            document.getElementById("contentcreation").addEventListener("click", loadDocWithHttp, false);
 
             function loadDocWithHttp(evt) {
                 var content_file = "";
@@ -193,6 +197,10 @@
                 else if (evt.currentTarget.id=="resume") {
                     content_file = "https://jaiaid.github.io/cv.txt";
                 }
+                else if (evt.currentTarget.id=="contentcreation") {
+                    content_file = "https://jaiaid.github.io/contentcreation.txt";
+                }
+
 
                 xhttp.open("GET", content_file, true);
                 xhttp.send();
