@@ -5,17 +5,16 @@
     }
     
     .content-row {
-        margin-bottom: 30px;
-        padding: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
         background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
     }
     
     .content-row h3 {
         color: #2c3e50;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .video-container, .photo-container {
@@ -25,12 +24,18 @@
         gap: 20px;
     }
     
-    .video-item, .photo-item {
+    .video-item {
         position: relative;
-        width: 32%;
-        height: 18%;
+        width: 32em;
+        height: 18em;
         overflow: hidden;
-        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .photo-item {
+        position: relative;
+        overflow: hidden;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -74,7 +79,7 @@
         <h3>Most Viewed YouTube Videos</h3>
         <div class="video-container">
             <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/aiB-OTcVScc?si=V3zKY964RkTUpgjI" 
+                <iframe src="https://www.youtube.com/embed/aiB-OTcVScc?si=am2JekRQgwpRvTiz" 
                 title="Releasing two Diplodocus" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" 
@@ -104,8 +109,8 @@
         <h3>Featured Videos</h3>
         <div class="video-container">
             <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/FUlLjZUcZ9Y?si=KjTC52Do7qeouinN" 
-                title="ISS captured on 2022.04.06 #iss  #astrophotography" frameborder="0" 
+                <iframe src="https://www.youtube.com/embed/e8gvIpnYOvg?si=F6i7s54NgJFYemOu" 
+                title="ISS captured on 2022.04.06 #iss #astrophotography" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" 
                 allowfullscreen></iframe>
@@ -134,22 +139,22 @@
         <h3>Photography</h3>
         <div class="photo-container">
             <div class="photo-item">
-                <a href="https://flic.kr/p/2qoM5Ak" target="_blank">
-                    <img src="https://flic.kr/p/2qoM5Ak" 
+                <a href="https://www.flickr.com/photos/193785956@N05/54079013340/in/datetaken-public/" target="_blank">
+                    <img src="https://live.staticflickr.com/65535/54079013340_b8b4f859f1_w.jpg" 
                          alt="Comet C2023_A3 Tsuchinshan-atlas ">
                 </a>
             </div>
             
             <div class="photo-item">
-                <a href="https://flic.kr/p/2naNRaN" target="_blank">
-                    <img src="https://flic.kr/p/2naNRaN" 
+                <a href="https://www.flickr.com/photos/193785956@N05/51963173692/in/datetaken-public/" target="_blank">
+                    <img src="https://live.staticflickr.com/65535/51963173692_533cb4c71e_w.jpg" 
                          alt="Lunar Mosaic 2022.03.11">
                 </a>
             </div>
             
             <div class="photo-item">
-                <a href="https://flic.kr/p/2oZCFcB" target="_blank">
-                    <img src="https://flic.kr/p/2oZCFcB" 
+                <a href="https://www.flickr.com/photos/193785956@N05/53160737613/in/datetaken-public/" target="_blank">
+                    <img src="https://live.staticflickr.com/65535/53160737613_65a609ed98_w.jpg" 
                          alt="Frog">
                 </a>
             </div>
