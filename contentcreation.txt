@@ -27,8 +27,8 @@
     
     .video-item, .photo-item {
         position: relative;
-        width: 280px;
-        height: 200px;
+        width: 32%;
+        height: 18%;
         overflow: hidden;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -44,19 +44,6 @@
         width: 100%;
         height: 100%;
         border: none;
-    }
-    
-    .video-item .video-title {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
-        padding: 10px;
-        font-size: 14px;
-        transform: translateY(100%);
-        transition: transform 0.3s ease;
     }
     
     .video-item:hover .video-title {
@@ -82,38 +69,32 @@
 </style>
 
 <div class="content-grid">
-    <!-- Row 1: Top YouTube Videos -->
+    <!-- Row 1: Most Viewed YouTube Videos -->
     <div class="content-row">
-        <h3>Top YouTube Videos</h3>
+        <h3>Most Viewed YouTube Videos</h3>
         <div class="video-container">
             <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/videoseries?list=UU8344jaiaidmobin" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-                <div class="video-title">Latest Gaming Content</div>
+                <iframe src="https://www.youtube.com/embed/aiB-OTcVScc?si=V3zKY964RkTUpgjI" 
+                title="Releasing two Diplodocus" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
             </div>
             
             <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/videoseries?list=UU8344jaiaidmobin&index=2" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-                <div class="video-title">Popular Gaming Highlights</div>
+                <iframe src="https://www.youtube.com/embed/FUlLjZUcZ9Y?si=A4Zut76OZ8_mXY3y" 
+                title="Releasing T-Rex in Island Tacaño" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
             </div>
             
             <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/videoseries?list=UU8344jaiaidmobin&index=3" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-                <div class="video-title">Gaming Tutorials & Tips</div>
+                <iframe src="https://www.youtube.com/embed/eem8yjlFQnc?si=fI4BvpWAIHZPKM4x" 
+                title="Releasing Dreadnoughtus" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -123,56 +104,53 @@
         <h3>Featured Videos</h3>
         <div class="video-container">
             <div class="video-item">
-                <div class="placeholder-video">
-                    <p>YouTube Video Placeholder 1<br>
-                    <small>Replace with your preferred YouTube embed code</small></p>
-                </div>
-                <div class="video-title">Custom Video 1</div>
+                <iframe src="https://www.youtube.com/embed/FUlLjZUcZ9Y?si=KjTC52Do7qeouinN" 
+                title="ISS captured on 2022.04.06 #iss  #astrophotography" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
             </div>
             
             <div class="video-item">
-                <div class="placeholder-video">
-                    <p>YouTube Video Placeholder 2<br>
-                    <small>Replace with your preferred YouTube embed code</small></p>
-                </div>
-                <div class="video-title">Custom Video 2</div>
+                <iframe src="https://www.youtube.com/embed/_npsggOpRlA?si=XKa_4MjVKTT3GWJL"  
+                title="Obstacle Detector and Surface Plotter" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
             </div>
             
             <div class="video-item">
-                <div class="placeholder-video">
-                    <p>YouTube Video Placeholder 3<br>
-                    <small>Replace with your preferred YouTube embed code</small></p>
-                </div>
-                <div class="video-title">Custom Video 3</div>
+                <iframe src="https://www.youtube.com/embed/MZC_wSF6rMY?si=nQHnjyFYntjv5Vsn" 
+                title="The House Of The Dead Remake Full Walkthrough Arcade Difficulty" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
             </div>
         </div>
     </div>
     
     <!-- Row 3: Flickr Photos -->
     <div class="content-row">
-        <h3>Flickr Photos</h3>
+        <h3>Photography</h3>
         <div class="photo-container">
             <div class="photo-item">
-                <a href="https://www.flickr.com/people/193785956@N05/" target="_blank">
-                    <img src="https://live.staticflickr.com/65535/52000000000_000000_z.jpg" 
-                         alt="Flickr Photo 1" 
-                         onerror="this.src='https://via.placeholder.com/280x200?text=Flickr+Photo+1'">
+                <a href="https://flic.kr/p/2qoM5Ak" target="_blank">
+                    <img src="https://flic.kr/p/2qoM5Ak" 
+                         alt="Comet C2023_A3 Tsuchinshan-atlas ">
                 </a>
             </div>
             
             <div class="photo-item">
-                <a href="https://www.flickr.com/people/193785956@N05/" target="_blank">
-                    <img src="https://live.staticflickr.com/65535/52000000001_000000_z.jpg" 
-                         alt="Flickr Photo 2" 
-                         onerror="this.src='https://via.placeholder.com/280x200?text=Flickr+Photo+2'">
+                <a href="https://flic.kr/p/2naNRaN" target="_blank">
+                    <img src="https://flic.kr/p/2naNRaN" 
+                         alt="Lunar Mosaic 2022.03.11">
                 </a>
             </div>
             
             <div class="photo-item">
-                <a href="https://www.flickr.com/people/193785956@N05/" target="_blank">
-                    <img src="https://live.staticflickr.com/65535/52000000002_000000_z.jpg" 
-                         alt="Flickr Photo 3" 
-                         onerror="this.src='https://via.placeholder.com/280x200?text=Flickr+Photo+3'">
+                <a href="https://flic.kr/p/2oZCFcB" target="_blank">
+                    <img src="https://flic.kr/p/2oZCFcB" 
+                         alt="Frog">
                 </a>
             </div>
         </div>
