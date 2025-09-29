@@ -5,7 +5,7 @@
 <p>
     <ul>
         <li>
-    <a href="https://dl.acm.org/doi/10.1145/3588195.3595940">COLTI: Towards Concurrent and Co-located DNN Training and Inference</a> (Best Paper Award HPDC'23)
+    <a href="https://dl.acm.org/doi/10.1145/3588195.3595940">COLTI: Towards Concurrent and Co-located DNN Training and Inference</a> (Best Poster Award HPDC'23)
     <br>
     This is presented as poster in HPDC'23. In this work we have proposed a system to deploy continuously learned system geared towards saving GPU resources.
         </li>
