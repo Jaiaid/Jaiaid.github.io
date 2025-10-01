@@ -1,4 +1,7 @@
-<img style="padding:1%" src="hellothere_once.gif" alt="Hello, there!">
+<video autoplay>
+<source src="hellothere_once.mp4" type="video/mp4">
+Hello there by Obi-Wan (browser is not supporting the video)
+</video>
 <p>I am Jaiaid Mobin. 4th year <a href="https://www.rit.edu/study/computing-and-information-sciences-phd">Ph.D.</a> student in Rochester Institute of Technology (RIT).</p>
 <p>I am interested in general science, especially physics, chemistry, math, biology and earth science. I wish to know how the world around me works. This is the motivation behind my interest in science.</p>
 <p>In my leisure, I like to do personal project related to programming. My other hobbies include stargazing, microscope and PC games. Check out some of my photography attempt in my Flickr and Instagram accounts (left column).</p>
