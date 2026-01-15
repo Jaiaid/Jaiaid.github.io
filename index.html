@@ -30,7 +30,22 @@
             }
             
             .header-section {
-                flex-shrink: 0;
+                flex: 0;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .header-name {
+                width: 80%;
+                border-right: 1% solid black;
+                flex-shrink: 1;
+            }
+            
+            .visitor-counter {
+                width: 10%;
+                flex: 1;
+                overflow-y: auto;
+                padding: 10px;
             }
             
             .content-wrapper {
@@ -127,10 +142,15 @@
     </head>
     <body onload="loadAbout()">
         <div class="main-container">
-            <div class="header-section">          
+            <div class="header-section">
+                <div class="header-name">         
                 <h4>Jaiaid Mobin</h4>
                 <h5> From <a href="https://maps.app.goo.gl/8xn9EKCacmzrLTqB8" target="_blank">Dhaka, Bangladesh</a>. Currently in <a href="https://maps.app.goo.gl/G69pzpNz8DEMM3Vp9" target="_blank">Rochester, NY, USA</a></h5>
                 <h5> Email: <a href="mailto:jaiaidmobin@gmail.com">jAiaidmoBin at Gmail dot cOm</a></h5>
+                </div>
+                <div class="visitor-counter">
+			<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=3ZiBXH8QX2BUWn0E5UYwt_Kx3WEasJXD_Rb2Z7Tiu1I&cl=ffffff&w=a"></script>
+                </div>
                 <hr>
             </div>
             <div class="content-wrapper">
@@ -251,7 +271,6 @@
             // Handle window resize for responsive ads
             window.addEventListener('resize', handleAdResize);
         </script>
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=3ZiBXH8QX2BUWn0E5UYwt_Kx3WEasJXD_Rb2Z7Tiu1I&cl=ffffff&w=a"></script>
     </body>
 </html>
 

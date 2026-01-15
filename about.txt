@@ -18,5 +18,3 @@ I am investigating in multiple direction
     <li>CPU Offloading in General DNN Inference</li>
 </ul>
 </p>
-
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=3ZiBXH8QX2BUWn0E5UYwt_Kx3WEasJXD_Rb2Z7Tiu1I&cl=ffffff&w=a"></script>
