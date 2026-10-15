@@ -1,0 +1,47 @@
+name: Safe Minify and Deploy to Pages
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # Explicit instruction for the minifier to handle the .txt files as HTML fragment
+      - name: Minify HTML, JS, and TXT files
+        uses: tdewolff/minify-action@v2.2.0
+        with:
+          directory: '.'
+          recursive: true
+          pattern: |
+            **/*.html
+            **/*.js
+            **/*.css
+            {"type": "text/html", "pattern": "**/*.txt"}
+
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+
+      - name: Deploy to Github Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
